@@ -10,7 +10,7 @@ export class GooglemapController {
       return getLatLng(address, type, radius); 
     }
 }
-const apiKey = 'AIzaSyCYge28-Ryf1aQGdHt7dPdlC8XBS6td6ac';
+const apiKey = 'YOUR_API_KEY';
 var caches_array = [];
 
 async function getLatLng(address:string, type:string, radius:number) {
